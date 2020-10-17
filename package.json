@@ -2,8 +2,8 @@
   "name": "test",
   "version": "0.0.0",
   "scripts": {
-    "serve": "ng serve --proxy-config proxy.conf.json",
-    "serve-production": "ng serve --proxy-config proxy.conf.json --configuration production",
+    "serve-working": "ng serve --proxy-config proxy.conf.json --configuration working",
+    "serve-not-working": "ng serve --proxy-config proxy.conf.json --configuration notWorking",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
